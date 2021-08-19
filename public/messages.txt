@@ -1,0 +1,27 @@
+[
+  {
+    "email": "juan@gmail.com",
+    "date": "19/08/2021 13:08:88",
+    "text": "Hola, que tal?"
+  },
+  {
+    "email": "maria@gmail.com",
+    "date": "19/08/2021 13:08:22",
+    "text": "Bien y vos?"
+  },
+  {
+    "email": "juan@gmail.com",
+    "date": "19/08/2021 13:08:80",
+    "text": "Que tal el proyecto con socket io"
+  },
+  {
+    "email": "maria@gmail.com",
+    "date": "19/08/2021 13:08:84",
+    "text": "La verdad que bastante dificil."
+  },
+  {
+    "email": "juan@gmail.com",
+    "date": "19/08/2021 13:08:45",
+    "text": "Lo mismo digo."
+  }
+]

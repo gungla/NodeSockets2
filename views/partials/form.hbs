@@ -1,0 +1,48 @@
+<div class='form-product'>
+  <h3 class='text-center wd-100'>Nuevo producto</h3>
+  <form class='g-3' id='form-product' action='/api/guardar' method='post'>
+
+    <div class='input-group mb-3'>
+
+      <input
+        type='text'
+        id='title'
+        name='title'
+        class='form-control'
+        placeholder='Nombre producto'
+        aria-label='Nombre producto'
+      />
+    </div>
+
+    <div class='input-group mb-3'>
+      
+      <input
+        type='number'
+        id='price'
+        name='price'
+        class='form-control'
+        placeholder='999.99'
+        aria-label='Precio'
+      />
+    </div>
+
+    <div class='input-group mb-3'>
+      
+      <input
+        type='text'
+        id='thumbnail'
+        name='thumbnail'
+        class='form-control'
+        placeholder='https://picsum.photos/id/237/200/300'
+      />
+    </div>
+
+    <div>
+      <input type='hidden' name='form' value='true' />
+    </div>
+
+    <div class='col-12'>
+      <button class='btn btn-primary w-100' type='submit'>Guardar</button>
+    </div>
+  </form>
+</div>

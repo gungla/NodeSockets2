@@ -1,0 +1,46 @@
+<div class='chat_window'>
+  <h3 class='text-center wd-100'>Chat</h3>
+  <ul id='messages' class='messages'></ul>
+  <div class='bottom_wrapper clearfix'>
+    <form id='form-Chat'>
+       <div class='row justify-content-center'>
+        <div class='col-lg-4'>
+            <div class='message_input_wrapper'>
+              <input
+                id='email'
+                name='email'
+                class='message_input'
+                type='email'
+                size='64'
+                maxLength='64'
+                required
+                placeholder='Ingrese su email...'
+              />
+            </div>
+        </div>
+        <div class='col-lg-8'>
+            <div class='message_input_wrapper'>
+            <input
+              id='text'
+              name='text'
+              class='message_input'
+              placeholder='Mensaje...'
+              required
+            />
+          </div>
+        </div>
+        <div class='col-lg-12'>
+            <button type='submit' class='send_message'>
+              Enviar
+            </button>
+        </div>
+    </form>
+  </div>
+</div>
+<div class='message_template'>
+  <li class='message'>
+    <div class='text_wrapper'>
+      <div class='text'></div>
+    </div>
+  </li>
+</div>
